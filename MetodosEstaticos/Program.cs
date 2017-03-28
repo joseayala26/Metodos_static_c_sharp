@@ -25,15 +25,18 @@ namespace MetodosEstaticos
             cello.imprimircolor();
             ElMayor = Comparadora.RetornarMayor(5, 10);
 
+            /***************************************/
+            /***************************************/
+            /***************************************/
 
 
-
-            Console.WriteLine("escribir algo");
-            cello.mensaje = Console.ReadLine();
+            cello.crea_carteles();
+            //Console.WriteLine("escribir algo");
+            //cello.mensaje = Console.ReadLine();
             //ElMayor=cello.tamanio(dato);
-            cello.astericos(cello.tamanio(cello.mensaje));
-            Console.WriteLine("*" + cello.mensaje + "*");
-            cello.astericos(cello.tamanio(cello.mensaje));
+            //cello.astericos(cello.tamanio(cello.mensaje));
+            //Console.WriteLine("*" + cello.mensaje + "*");
+            //cello.astericos(cello.tamanio(cello.mensaje));
 
 
             Console.ReadKey();
